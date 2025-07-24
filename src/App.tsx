@@ -9,6 +9,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import PropertiesPage from './pages/PropertiesPage';
 import PropertyDetailsPage from './pages/PropertyDetailsPage';
+import AdminLoginPage from './pages/AdminLoginPage';
 import AdminDashboard from './pages/AdminDashboard';
 import AgencyManagement from './pages/AgencyManagement';
 
@@ -66,6 +67,7 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/properties" element={<PropertiesPage />} />
             <Route path="/property/:id" element={<PropertyDetailsPage />} />
+            <Route path="/admin/login" element={<AdminLoginPage />} />
             <Route path="/admin" element={<AdminDashboard />} />
             <Route path="/agencies" element={<AgencyManagement />} />
           </Routes>
